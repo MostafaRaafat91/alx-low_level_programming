@@ -1,6 +1,8 @@
 #include <stdio.h>
 /**
- * my firts c file 
+ * main - Entry Point
+ *
+ *Return: Always 0 (Success)
  */
 int main(void)
 {
