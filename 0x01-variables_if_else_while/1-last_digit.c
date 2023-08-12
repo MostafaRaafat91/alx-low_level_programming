@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdin.h>
 /**
  * main - Generates a random number and prints its last digit.
  * 'n' holds a different value each time the program runs.
