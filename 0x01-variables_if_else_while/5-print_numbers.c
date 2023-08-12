@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Assign a random n to the variable each time 
+ * main - Assign a random n to the variable each time
  * and print the last digit of the n
  * Return: Always 0
  */
