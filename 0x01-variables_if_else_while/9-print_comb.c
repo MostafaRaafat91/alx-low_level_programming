@@ -3,7 +3,7 @@
 /**
  * main -Prints all Possible combinations of single digit n.
  *
- * Return Always 0.
+ * Return: Always 0.
  */
 int main(void)
 {
