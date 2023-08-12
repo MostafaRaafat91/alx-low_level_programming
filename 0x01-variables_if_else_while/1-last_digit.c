@@ -19,7 +19,7 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* Print the last digit of n */
-	printf("Last digit of %d is ", n % 10);
+	printf("Last digit of %d is %d ", n % 10);
 	/* Check the last digit and print the corresponding message */
 	if ((n % 10) > 5)
 	{
