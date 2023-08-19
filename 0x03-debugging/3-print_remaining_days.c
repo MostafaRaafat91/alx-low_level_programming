@@ -29,8 +29,15 @@ printf("Invalid date: %02d/%02d/%04d\n", month, day, year);
 }
 else
 {
+if (day > 0 && day <= 31 && month > 0 && month <= 12)
+{
 printf("Day of the year: %d\n", day);
 printf("Remaining days: %d\n", 365 - day);
+}
+else
+{
+printf("Invalid date: %02d/%02d/%04d\n", month, day, year);
+}
 }
 }
 }
