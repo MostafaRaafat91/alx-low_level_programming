@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
- * isdigit - checks if character is digit
+ * _isdigit - checks if character is digit
  * @c: the character to check
  * Return: 1 if digit, else 0
  */
@@ -64,7 +64,7 @@ char *big_multiply(char *s1, char *s2)
 			c /= 10;
 		}
 		if (c)
-			v[11 + 12 + 1] +=c;
+			v[11 + 12 + 1] += c;
 	}
 	return (v);
 }
