@@ -2,9 +2,9 @@
 
 /**
  * free_listint_safe - frees a linked list
- * @h: head of a list
+ * @h: pointer to the first node in the linked list
  *
- * Return: size of the linked list that was freed
+ * Return: number of elements in the freed list
  */
 size_t free_listint_safe(listint_t **h)
 {
